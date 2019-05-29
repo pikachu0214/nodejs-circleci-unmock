@@ -37,5 +37,3 @@ fetch('https://nyt-unmock.herokuapp.com/viewed')
 fetch('https://nyt-unmock.herokuapp.com/reviews')
     .then(req => req.json())
     .then(res => console.log(res))
-
-
