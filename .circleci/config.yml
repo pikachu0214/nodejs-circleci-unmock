@@ -37,7 +37,7 @@ jobs: # a collection of steps
       - run:
           name: Deploy Master to Heroku
           command: |
-            git push https://heroku:$2d723b07-0a83-4c18-9e1d-83461b4ffadfY@git.heroku.com/$https://https://git.heroku.com/whispering-savannah-50258.gitmaster
+            git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$whispering-savannah-50258.git master
 workflows:
   version: 2
   build-deploy:
